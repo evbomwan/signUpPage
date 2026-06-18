@@ -10,22 +10,21 @@
     <div class="container">
       <div class="background">
         <div class="logo-container">
-            <img src="./odin-lined.png" alt="Odin Logo">
-            <span>ODIN</span>
+          <img src="./odin-lined.png" alt="Odin Logo" />
+          <span>ODIN</span>
         </div>
         <footer>
- Photo by
-        <a
-          href="https://unsplash.com/@katewarner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Katelyn Warner</a
-        >
-        on
-        <a
-          href="https://unsplash.com/photos/city-skyline-with-skyscrapers-highway-and-train-fNfCjzJzSHA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-          >Unsplash</a
-        >
+          Photo by
+          <a
+            href="https://unsplash.com/@katewarner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Katelyn Warner</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/city-skyline-with-skyscrapers-highway-and-train-fNfCjzJzSHA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
         </footer>
-       
       </div>
       <div class="form">
         <form action="" class="form-container">
@@ -37,7 +36,7 @@
           <p>What do you think?</p>
           <br />
           <br />
-          <h2>Let's do this</h2>
+          <h2>Let's do this!</h2>
           <div class="fieldset_container">
             <fieldset class="fieldst1">
               <label for="first_name">FIRST NAME</label>
@@ -50,7 +49,13 @@
               <br />
               <label for="password">PASSWORD</label>
               <br />
-              <input type="password" name="password" id="password" />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                minlength="8"
+              />
             </fieldset>
             <fieldset class="fieldset2">
               <label for="last_name">LAST NAME</label>
@@ -67,11 +72,15 @@
                 type="confirm_password"
                 name="confirm_password"
                 id="password"
+                required
+                minlength="8"
               />
             </fieldset>
           </div>
-          <button type="submit">Create Account</button>
-          <p>Already have an account? <a href="">Log in</a></p>
+          <div class="submit_container">
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+          </div>
         </form>
       </div>
     </div>
