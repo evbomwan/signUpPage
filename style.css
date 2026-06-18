@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Norse;
+  src: url(./fonts/norse/Norse.otf), url(./fonts/norse/Norsebold.otf);
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: poppins, sans-serif;
 }
 .container {
   width: 100vw;
@@ -33,6 +38,7 @@ span {
   font-weight: bold;
   color: white;
   font-size: 2rem;
+  font-family: Norse;
 }
 footer {
   position: absolute;
@@ -89,19 +95,19 @@ input:focus:valid {
 input:focus:invalid {
   border-color: red;
 }
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-.submit_container button{
-    margin-bottom: 10px;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: rgba(47, 96, 47, 0.803);
-    color: white;
-    font-weight: bold;
+.submit_container button {
+  margin-bottom: 10px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(47, 96, 47, 0.803);
+  color: white;
+  font-weight: bold;
 }
-.submit_container a{
-    color: green;
+.submit_container a {
+  color: green;
 }
