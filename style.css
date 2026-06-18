@@ -88,6 +88,7 @@ input {
 }
 input:focus {
   border: 1px solid rgb(0, 179, 255);
+  box-shadow: 0 0 4px rgba(59, 130, 246, 0.25);
 }
 input:focus:valid {
   border-color: green;
