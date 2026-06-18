@@ -1,12 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Sign Up Page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <div class="logo-container">
+            <img src="./odin-lined.png" alt="Odin Logo">
+            <span>ODIN</span>
+        </div>
+        <footer>
+ Photo by
+        <a
+          href="https://unsplash.com/@katewarner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Katelyn Warner</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/city-skyline-with-skyscrapers-highway-and-train-fNfCjzJzSHA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+        </footer>
+       
+      </div>
+      <div class="form">
+        <form action="" class="form-container">
+          <p>
+            This is just for practicing my skills learnt from the Oden Project.
+            I would like to be a very knowlegable programmer and this is me
+            pushing towards that dream.
+          </p>
+          <p>What do you think?</p>
+          <br />
+          <br />
+          <h2>Let's do this</h2>
+          <div class="fieldset_container">
+            <fieldset class="fieldst1">
+              <label for="first_name">FIRST NAME</label>
+              <br />
+              <input type="text" id="first_name" name="first_name" />
+              <br />
+              <label for="email">EMAIL</label>
+              <br />
+              <input type="email" name="email" id="email" />
+              <br />
+              <label for="password">PASSWORD</label>
+              <br />
+              <input type="password" name="password" id="password" />
+            </fieldset>
+            <fieldset class="fieldset2">
+              <label for="last_name">LAST NAME</label>
+              <br />
+              <input type="text" id="last_name" name="last_name" />
+              <br />
+              <label for="number">PHONE NUMBER</label>
+              <br />
+              <input type="tel" name="number" id="number" />
+              <br />
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <br />
+              <input
+                type="confirm_password"
+                name="confirm_password"
+                id="password"
+              />
+            </fieldset>
+          </div>
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

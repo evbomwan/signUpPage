@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.background {
+  background-image: url(./katelyn-warner-fNfCjzJzSHA-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 4;
+  position: relative;
+}
+.logo-container {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.445);
+  position: relative;
+  top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 60px;
+  height: 80px;
+}
+span {
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.form {
+  flex: 6;
+}
+.form-container {
+  padding: 20px;
+}
